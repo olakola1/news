@@ -20,7 +20,7 @@
     position: relative;
     width: 16px;
     height: 16px;
-    border: 2px solid var(--light-grey);
+    border: 2px solid rgba(52, 43, 43, 40%);
     border-radius: 50%;
 }
 
@@ -32,7 +32,7 @@
     width: 7px;
     height: 2px;
     border-radius: 20%;
-    background-color: #2a2f37;
+    background-color: rgba(52, 43, 43, 40%);
     transform: rotate(35deg);
 }
 

@@ -27,6 +27,8 @@
     padding-top: 24px;
     padding-bottom: 48px;
     padding-right: 5px;
+    color: rgba(255,255,255,60%);
+    font-size: 12px; 
 }
 
 .icon {
@@ -44,4 +46,6 @@
   
 .logo-text {
 padding-left: 40px; 
+color: rgba(255,255,255,60%);
+font-size: 12px; 
 }

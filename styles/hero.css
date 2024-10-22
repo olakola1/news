@@ -29,16 +29,20 @@
 .hero-text {
    font-size: 16px;
    line-height: 24px; 
+   color: rgba(42, 47, 45, 80%);
 }
 
 .hero-search {
-   position: absolute;
+   position:absolute;
 }
 
 .type {
    height: 48px;
+   background-color: rgba(42, 47, 45, 2%);
+   border: rgba(42, 47, 45, 8%);
+   color: rgba(42, 47, 45, 40%);
 }
-  
+
 .hero-search-type {
    position: relative;
 }

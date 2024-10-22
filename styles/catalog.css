@@ -21,6 +21,21 @@
     padding-top: 80px;
 }
 
+.btn-categories {
+    padding: 8px 16px 8px 15px;
+    color: var(--light-grey);
+    font-size: 16px;
+}
+
+.btn-categories:hover {
+    background: rgba(42, 47, 56, 6%);
+}
+
+.btn-categories:focus {
+    background-color:  var( --blue);
+    color: var(--white-color);
+}
+
 .item_1 {
     grid-column: 1 / span 4;
 }
@@ -74,17 +89,21 @@
     font-size: 18px;
     font-weight: 700;
 }
+.articles-card-title:hover {
+    color: var(--blue);
+}
+
 
 .articles-card-text {
     font-size: 14px;
     line-height: 24px;
-    color: var(--light-grey);
+    color: rgba(42, 47, 56, 80%);
     padding-top: 16px;
 }
 
 .articles-card-time {
     font-size: 14px;
-    color: var(--light-grey);
+    color: rgba(42, 47, 56, 40%);
 }
 
 .articles-card-price {
