@@ -1,0 +1,53 @@
+/* ________________________header_________________________*/
+
+.header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 72px;
+    border-radius: 1px solid var(--light-grey);
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    width: 80%; 
+}
+
+.search {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    border: 2px solid var(--light-grey);
+    border-radius: 50%;
+}
+
+.search::after {
+    content: '';
+    bottom: -1px;
+    left: 10px;
+    position: absolute;
+    width: 7px;
+    height: 2px;
+    border-radius: 20%;
+    background-color: #2a2f37;
+    transform: rotate(35deg);
+}
+
+.header-link {
+  font-size: 16px;
+  font-style: normal;
+  width: 216px;
+  height: 40px;
+}
+
+.btn-login {
+    background: url('../test3/jmg/user.svg') no-repeat left center;
+    padding-left: 35px;
+    color: var(--light-grey);
+    font-size: 14px;
+    width: 40px;
+    height: 24px;
+}

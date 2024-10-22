@@ -1,0 +1,47 @@
+.footer {
+    background-color: var(--light-grey);
+    max-width: 1170px;
+    margin: 0 auto;
+    color: var(--white-color);
+}
+
+.footer-wrapper {
+    padding-top: 48px;
+    padding-bottom: 57px;
+}
+
+.footer-logo {
+  width: 418px;
+}
+
+.footer-list-link {
+    font-size: 16px;
+}
+
+.footer-link {
+  border-bottom: 1px solid var(--white-color);
+  padding-bottom: 48px;
+}
+
+.contacts-email {
+    padding-top: 24px;
+    padding-bottom: 48px;
+    padding-right: 5px;
+}
+
+.icon {
+    padding-left: 20px;
+}
+
+.logo-link {
+    padding-right: 40px;
+    position: relative;
+}
+
+.svg path {
+    fill: var(--white-color);
+}
+  
+.logo-text {
+padding-left: 40px; 
+}
