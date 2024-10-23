@@ -41,9 +41,12 @@
 }
 
 .hero-search-type {
-   position: relative;
+  
    display: grid;
    grid-column: 1 / 6;
+   background-image: url("../jmg/search.svg");
+   background-position: right;
+   background-repeat: no-repeat;
 }
 
-.her
+
