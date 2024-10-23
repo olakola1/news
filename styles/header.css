@@ -44,10 +44,10 @@
 }
 
 .btn-login {
-    background: url('../test3/jmg/user.svg') no-repeat left center;
+    background: url('../jmg/Войти.svg') no-repeat left center;
     padding-left: 35px;
     color: var(--light-grey);
     font-size: 14px;
-    width: 40px;
+    width: 72px;
     height: 24px;
 }

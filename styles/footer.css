@@ -11,11 +11,11 @@
 }
 
 .footer-logo {
-  width: 418px;
+  width: 419px;
 }
 
 .footer-list-link {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .footer-link {
@@ -24,28 +24,28 @@
 }
 
 .contacts-email {
-    padding-top: 24px;
-    padding-bottom: 48px;
-    padding-right: 5px;
-    color: rgba(255,255,255,60%);
-    font-size: 12px; 
+ padding-top: 24px;
+ padding-bottom: 48px;
+ padding-right: 5px;
+ color: rgba(255,255,255,60%);
+ font-size: 12px; 
 }
 
 .icon {
-    padding-left: 20px;
+   padding-left: 20px;
 }
 
 .logo-link {
-    padding-right: 40px;
-    position: relative;
+  padding-right: 40px;
+  position: relative;
 }
 
-.svg path {
-    fill: var(--white-color);
-}
-  
 .logo-text {
-padding-left: 40px; 
-color: rgba(255,255,255,60%);
-font-size: 12px; 
+  padding-left: 40px; 
+  color: rgba(255,255,255,60%);
+  font-size: 12px; 
+}
+
+.hero-search {
+  position:absolute;
 }

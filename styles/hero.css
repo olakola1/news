@@ -17,6 +17,7 @@
    gap: 40px;
    padding-top:100px;
    padding-bottom: 140px;
+   position: relative;
 }
 
 .hero-title {
@@ -32,10 +33,6 @@
    color: rgba(42, 47, 45, 80%);
 }
 
-.hero-search {
-   position:absolute;
-}
-
 .type {
    height: 48px;
    background-color: rgba(42, 47, 45, 2%);
@@ -45,4 +42,8 @@
 
 .hero-search-type {
    position: relative;
+   display: grid;
+   grid-column: 1 / 6;
 }
+
+.her
