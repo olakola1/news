@@ -37,6 +37,10 @@
         left: 7px;
         width: 8px;
     } 
+
+    .hero {
+        min-width: 
+    }
     
     .hero-wrapper {
         grid-column: 1 / span 10;
