@@ -1,13 +1,12 @@
 .footer {
-    background-color: var(--light-grey);
-    max-width: 1170px;
-    margin: 0 auto;
-    color: var(--white-color);
+  margin: 0 auto;
+  max-width: 1170px;
+  color: var(--white-color);
+  background-color: var(--light-grey);    
 }
 
 .footer-wrapper {
-    padding-top: 48px;
-    padding-bottom: 57px;
+  padding: 48px 0 57px 0;
 }
 
 .footer-logo {
@@ -19,20 +18,18 @@
 }
 
 .footer-link {
-  border-bottom: 1px solid var(--white-color);
   padding-bottom: 48px;
+  border-bottom: 1px solid var(--white-color);
 }
 
 .contacts-email {
- padding-top: 24px;
- padding-bottom: 48px;
- padding-right: 5px;
+ padding: 24px 5px 48px 0;
  color: rgba(255,255,255,60%);
  font-size: 12px; 
 }
 
 .icon {
-   padding-left: 20px;
+  padding-left: 20px;
 }
 
 .logo-link {

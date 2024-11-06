@@ -1,0 +1,91 @@
+@media (max-width: 576px) {
+    .container {
+        max-width: 346px; 
+    }
+
+    .header-wrapper {
+        width: 60%; 
+    }
+
+    .header-link {
+        width: 132px;
+        height: 31px; 
+        font-size: 10px;
+        font-style: normal;
+        text-align: center;
+        margin-left: 30px;
+    }
+    
+    .btn-styles {
+        padding: 5px 5px 5px 5px;
+    }
+
+    .btn-login {
+        padding-left: 28px;
+        width: 19px;
+        height: 19px;
+        font-size: 9px;
+    }
+
+    .search {
+        height: 13px;
+        margin-left: 20px;
+    }
+    
+    .search::after {
+        bottom: -1px;
+        left: 7px;
+        width: 8px;
+    } 
+    
+    .hero-wrapper {
+        grid-column: 1 / span 10;
+        gap: 5px;
+        padding: 0;
+        
+    }
+    .hero-title {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .hero-text {
+        font-size: 10px;
+    }
+
+    .type {
+        height: 38px;
+        font-size: 10px;
+    }
+     
+    .hero-search {
+        left: 300px;
+    }
+     
+    .bg-image {
+        background-image: url("../jmg/Group686.svg");
+        background-size: 45% 45%;
+        background-position: top right;  
+    }
+
+    .categories {
+        max-width: 346px; 
+    }
+    
+    .categories-link {
+        display: flex;
+        align-items: flex-start;
+        gap: 4px;
+        padding-top: 20px;
+    }
+
+    .btn-categories {
+       font-size: 9px;
+    }
+
+    .categories-title {
+        padding: 20px 0 20px 0;
+        font-size: 13px;   
+    }
+}
+

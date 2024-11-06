@@ -10,20 +10,18 @@
    background-repeat: no-repeat; 
 }
 
-.hero-wrapper{
-   display: flex;
-   flex-direction: column;
+.hero-wrapper {
    grid-column: 1 / span 5;
    gap: 40px;
-   padding-top:100px;
-   padding-bottom: 140px;
-   position: relative;
+   padding: 100px 0 140px 0;
+   display: flex;
+   flex-direction: column;
 }
 
 .hero-title {
+   margin-bottom: 16px;
    font-size: 48px;
    line-height: 56px;
-   margin-bottom: 16px;
    font-family: 'Roboto Slab', sans-serif;
 }
 
@@ -41,12 +39,14 @@
 }
 
 .hero-search-type {
-  
+   position: relative;
    display: grid;
-   grid-column: 1 / 6;
-   background-image: url("../jmg/search.svg");
-   background-position: right;
-   background-repeat: no-repeat;
+   grid-column: 1 / 6;  
 }
 
+.hero-search {
+   position: absolute;
+   top: 12px;
+   left: 424px;
+}
 

@@ -1,15 +1,14 @@
 /* ________________________header_________________________*/
 
 .header {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px 0 15px 0;
     height: 72px;
     border-radius: 1px solid var(--light-grey);
 }
 
 .container {
-    max-width: 1170px;
     margin: 0 auto;
+    max-width: 1170px; 
 }
 
 .header-wrapper {
@@ -25,10 +24,10 @@
 }
 
 .search::after {
+    position: absolute;
     content: '';
     bottom: -1px;
     left: 10px;
-    position: absolute;
     width: 7px;
     height: 2px;
     border-radius: 20%;
@@ -37,17 +36,17 @@
 }
 
 .header-link {
+  width: 216px;
+  height: 40px; 
   font-size: 16px;
   font-style: normal;
-  width: 216px;
-  height: 40px;
 }
 
 .btn-login {
-    background: url('../jmg/Войти.svg') no-repeat left center;
     padding-left: 35px;
-    color: var(--light-grey);
-    font-size: 14px;
     width: 72px;
     height: 24px;
+    color: var(--light-grey);
+    font-size: 14px;
+    background: url('../jmg/Войти.svg') no-repeat left center;   
 }
